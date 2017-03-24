@@ -12,6 +12,7 @@ $(document).ready(function(){
     var ailmentInput = $('#ailment').val();
     var locationInput = $('#location').val();
     var genderInput = $('#gender').val();
+    console.log(genderInput);
     newDoctor.search(ailmentInput, locationInput, genderInput, doctorDisplay);
     $('#clear').show();
     $('#search-form').hide();
