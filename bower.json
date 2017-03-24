@@ -1,0 +1,21 @@
+{
+  "name": "project-1",
+  "description": "#### _This webpage allows Users to search for doctors in their area based off of ailment, 17 March 2017_",
+  "main": "index.js",
+  "authors": [
+    "xa <xiaesmeamen@me.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7"
+  }
+}
