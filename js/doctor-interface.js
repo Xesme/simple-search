@@ -10,7 +10,6 @@ $(document).ready(function(){
     var locationInput = $('#location').val();
     var genderInput = $('#gender').val();
     newDoctor.search(ailmentInput, specialtyInput, locationInput, genderInput);
-    console.log(newDoctor);
   });
 
 });
