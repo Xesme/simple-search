@@ -16,6 +16,8 @@ Doctor.prototype.search = function(ailment, location, gender, doctorDisplay){
       var bio = response.data[0].profile.bio;
       doctorDisplay(image, name, gender, liscensed, specialty, bio);
     }
+  }).fail(function(error){
+    console.log("Whoops it looks like something went wrong! It may be that your search result were less than 5");
   });
 };
 
