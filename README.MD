@@ -1,6 +1,6 @@
-# _Best Doctors Independent Project_
+# _Simple Search Independent Project_
 
-#### _This webpage allows Users to search for doctors in their area based off of ailment, 17 March 2017_
+#### _This webpage allows Users to search for doctors in their area based off of ailment or field of medicine 17 March 2017_
 
 #### By _**Xia Amendolara**_
 
@@ -14,12 +14,6 @@ _This webpage allows users to search for doctors in their area based off of thei
 * Run `npm install` and `bower install` to install all dependencies as listed in the package.json and bower.json files for project.
 * Run command `gulp build` and `gulp serve` to start local server.
 * Open `index.html` in web browser (Chrome recommended).
-
-## Specifications
-
-|    *Behavior*   |    *Input*    |     *Output*    |
-|-----------------|---------------|-----------------|
-
 
 ## Known Bugs
 
@@ -37,7 +31,6 @@ _Please contact XiaEsmeAmen@me.com with concerns or comments._
 * _CSS_
 * _SASS_
 * _HTML_
-
 
 ### License
 

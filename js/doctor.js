@@ -10,7 +10,7 @@ Doctor.prototype.search = function(ailment, location, gender, doctorDisplay){
       for(var x = 0; x <= 4; x++){
         var image = response.data[x].profile.image_url;
         var name = response.data[x].profile.first_name + " " + response.data[x].profile.last_name + " " +
-         response.data[x].profile.title;
+        response.data[x].profile.title;
         var gender = response.data[x].profile.gender;
         var liscensed = response.data[x].licenses[0].state;
         var specialty = response.data[x].specialties[0].description;
