@@ -3,7 +3,7 @@ var apiKey = require('./../.env').apiKey;
 function Doctor() {
 }
 
-Doctor.prototype.search = function(ailment, specialty, location, gender, doctorDisplay){
+Doctor.prototype.search = function(ailment, location, gender, doctorDisplay){
   $.get('https://api.betterdoctor.com/2016-03-01/doctors?query=' + ailment + '&location=' + location + '&gender=' + gender + '&limit=10&user_key=' + apiKey).then(function(response){
     console.log(response);
     for(var x = 0; x <= 4; x++){

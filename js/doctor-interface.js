@@ -10,10 +10,9 @@ $(document).ready(function(){
   $('#search-form').submit(function(event){
     event.preventDefault();
     var ailmentInput = $('#ailment').val();
-    var specialtyInput = $('#specialty').val();
     var locationInput = $('#location').val();
     var genderInput = $('#gender').val();
-    newDoctor.search(ailmentInput, specialtyInput, locationInput, genderInput, doctorDisplay);
+    newDoctor.search(ailmentInput, locationInput, genderInput, doctorDisplay);
   });
 
 });
