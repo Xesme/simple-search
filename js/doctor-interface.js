@@ -13,6 +13,13 @@ $(document).ready(function(){
     var locationInput = $('#location').val();
     var genderInput = $('#gender').val();
     newDoctor.search(ailmentInput, locationInput, genderInput, doctorDisplay);
-    $('#results').empty();
+    $('#clear').show();
+    $('#search-form').hide();
+  });
+
+  $("#clear").click(function(){
+    $("#results").empty();
+    $("#clear").hide();
+    $('#search-form').show();
   });
 });
